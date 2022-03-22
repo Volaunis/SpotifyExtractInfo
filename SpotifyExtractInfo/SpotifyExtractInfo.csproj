@@ -45,4 +45,12 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Solution Items\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Link="Solution Items\README.md" />
+  </ItemGroup>
+
 </Project>
