@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SpotifyExtractInfo.Models.Spotify.Albums
+namespace SpotifyExtractInfo.Models.Spotify.Common
 {
-    public class External_Ids
+    public class ExternalIds
     {
         [JsonPropertyName("upc")]
         public string Upc { get; set; }

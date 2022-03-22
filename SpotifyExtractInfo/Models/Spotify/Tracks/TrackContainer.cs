@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text.Json.Serialization;
-using SpotifyExtractInfo.Models.Spotify.Albums;
 using SpotifyExtractInfo.Models.Spotify.Common;
 
 namespace SpotifyExtractInfo.Models.Spotify.Tracks

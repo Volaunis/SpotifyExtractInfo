@@ -1,9 +1,12 @@
 ﻿using System.Text.Json.Serialization;
+using SpotifyExtractInfo.Models.Spotify.Albums;
 
 namespace SpotifyExtractInfo.Models.Spotify.Common
 {
     public class Track
     {
+        [JsonPropertyName("album")]
+        public Album Album { get; set; }
         [JsonPropertyName("artists")]
         public Artist[] Artists { get; set; }
         [JsonPropertyName("available_markets")]
@@ -12,7 +15,7 @@ namespace SpotifyExtractInfo.Models.Spotify.Common
         public int DiscNumber { get; set; }
         [JsonPropertyName("duration_ms")]
         public int DurationMs { get; set; }
-        [JsonPropertyName("_explicit")]
+        [JsonPropertyName("explicit")]
         public bool Explicit { get; set; }
         [JsonPropertyName("external_urls")]
         public ExternalUrls ExternalUrls { get; set; }

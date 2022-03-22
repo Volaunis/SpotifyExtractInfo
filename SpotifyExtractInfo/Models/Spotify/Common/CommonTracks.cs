@@ -1,14 +1,11 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SpotifyExtractInfo.Models.Spotify.Albums
+namespace SpotifyExtractInfo.Models.Spotify.Common
 {
-
-    public class AlbumCollection
+    public class CommonTracks
     {
         [JsonPropertyName("href")]
         public string Href { get; set; }
-        [JsonPropertyName("items")]
-        public AlbumContainer[] Items { get; set; }
         [JsonPropertyName("limit")]
         public int Limit { get; set; }
         [JsonPropertyName("next")]
@@ -16,7 +13,7 @@ namespace SpotifyExtractInfo.Models.Spotify.Albums
         [JsonPropertyName("offset")]
         public int Offset { get; set; }
         [JsonPropertyName("previous")]
-        public string Previous { get; set; }
+        public object Previous { get; set; }
         [JsonPropertyName("total")]
         public int Total { get; set; }
     }

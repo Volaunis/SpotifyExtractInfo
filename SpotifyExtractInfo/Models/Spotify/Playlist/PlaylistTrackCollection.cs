@@ -1,14 +1,13 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SpotifyExtractInfo.Models.Spotify.Albums
+namespace SpotifyExtractInfo.Models.Spotify.Playlist
 {
-
-    public class AlbumCollection
+    public class PlaylistTrackCollection
     {
         [JsonPropertyName("href")]
         public string Href { get; set; }
         [JsonPropertyName("items")]
-        public AlbumContainer[] Items { get; set; }
+        public PlaylistTrack[] Items { get; set; }
         [JsonPropertyName("limit")]
         public int Limit { get; set; }
         [JsonPropertyName("next")]

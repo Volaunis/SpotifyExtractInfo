@@ -14,11 +14,9 @@ namespace SpotifyExtractInfo.Models.Spotify.Albums
         [JsonPropertyName("copyrights")]
         public Copyright[] Copyrights { get; set; }
         [JsonPropertyName("external_ids")]
-        public External_Ids ExternalIds { get; set; }
+        public ExternalIds ExternalIds { get; set; }
         [JsonPropertyName("external_urls")]
         public ExternalUrls ExternalUrls { get; set; }
-        [JsonPropertyName("genres")]
-        public object[] Genres { get; set; }
         [JsonPropertyName("href")]
         public string Href { get; set; }
         [JsonPropertyName("id")]

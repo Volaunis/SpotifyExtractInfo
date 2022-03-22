@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SpotifyExtractInfo.Models.Spotify.Artists
+namespace SpotifyExtractInfo.Models.Spotify.Playlist
 {
-    public class Followers
+    public class TracksReference
     {
         [JsonPropertyName("href")]
         public string Href { get; set; }
