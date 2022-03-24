@@ -10,9 +10,9 @@ Queries the Spotify API and stores the result as JSON files in the program direc
 You can get the Spotify token by going to the Spotify API documentation console, (f.ex. [Spotify API - Get current user's saved tracks](https://developer.spotify.com/console/get-current-user-saved-tracks/)), and clicking "Get Token".
 You will need to create a token with the following scopes:
 
-user-library-read
-playlist-read-private
-user-follow-read
+    user-library-read
+    playlist-read-private
+    user-follow-read
 
 Note that the token is fairly short-lived.
 
